@@ -1,0 +1,923 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Contoso_Visual_Basic
+</name>
+</assembly>
+<members>
+<member name="T:Contoso_Visual_Basic.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Contoso_Visual_Basic.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Contoso_Visual_Basic.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Contoso_Visual_Basic.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Contoso_Visual_Basic.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Contoso_Visual_Basic.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:Contoso_Visual_Basic.Create1._IDCourse_Text">
+<summary>
+IDCourse_Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create1._Title_Text">
+<summary>
+Title_Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create1._Credits_Text">
+<summary>
+Credits_Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create1._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete._IDCourse_Delete">
+<summary>
+IDCourse_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete._Title_Delete">
+<summary>
+Title_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete._Credits_Delete">
+<summary>
+Credits_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail._IDCourse_Delete">
+<summary>
+IDCourse_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail._Title_Delete">
+<summary>
+Title_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail._Credits_Delete">
+<summary>
+Credits_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit._IDCourse_Edit">
+<summary>
+IDCourse_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit._Title_Edit">
+<summary>
+Title_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit._Credits_Edit">
+<summary>
+Credits_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Title_Sr">
+<summary>
+Title_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Credit_Sr_From">
+<summary>
+Credit_Sr_From control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Credit_Sr_To">
+<summary>
+Credit_Sr_To control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Bt_Search">
+<summary>
+Bt_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._IDCourse_ASC">
+<summary>
+IDCourse_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._IDCourse_DESC">
+<summary>
+IDCourse_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Titile_ASC">
+<summary>
+Titile_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Titile_DESC">
+<summary>
+Titile_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Credit_ASC">
+<summary>
+Credit_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._Credit_DESC">
+<summary>
+Credit_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index1._GridView">
+<summary>
+GridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create2._IDEnrollment_Text">
+<summary>
+IDEnrollment_Text control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create2._ddlStudent">
+<summary>
+ddlStudent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create2._ddlCourse">
+<summary>
+ddlCourse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create2._ddlGrade">
+<summary>
+ddlGrade control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create2._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete2._IDEnrollment_Delete">
+<summary>
+IDEnrollment_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete2._IDStudent_Delete">
+<summary>
+IDStudent_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete2._IDCours_Delete">
+<summary>
+IDCours_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete2._Grade_Delete">
+<summary>
+Grade_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete2._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail1._IDEnrollment_Detail">
+<summary>
+IDEnrollment_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail1._IDStudent_Detail">
+<summary>
+IDStudent_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail1._IDCours_Detail">
+<summary>
+IDCours_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail1._Grade_Detail">
+<summary>
+Grade_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit2._IDEnrollment_Edit">
+<summary>
+IDEnrollment_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit2._ddlStudent_edit">
+<summary>
+ddlStudent_edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit2._ddlCourse_edit">
+<summary>
+ddlCourse_edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit2._ddlGrade_edit">
+<summary>
+ddlGrade_edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit2._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._FirstName_Sr">
+<summary>
+FirstName_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Title_Sr">
+<summary>
+Title_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._ddlGrade_sr">
+<summary>
+ddlGrade_sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Bt_Search">
+<summary>
+Bt_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._IDEnrollment_ASC">
+<summary>
+IDEnrollment_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._IDEnrollment_DESC">
+<summary>
+IDEnrollment_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._FirstName_ASC">
+<summary>
+FirstName_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._FirstName_DESC">
+<summary>
+FirstName_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Title_ASC">
+<summary>
+Title_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Title_DESC">
+<summary>
+Title_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Grade_ASC">
+<summary>
+Grade_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._Grade_DESC">
+<summary>
+Grade_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index2._GridView">
+<summary>
+GridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Create._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete1._IDStudent_Delete">
+<summary>
+IDStudent_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete1._FirstName_Delete">
+<summary>
+FirstName_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete1._LastName_Delete">
+<summary>
+LastName_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete1._Enrollment_Delete">
+<summary>
+Enrollment_Delete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Delete1._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail2._IDStudent_Detail">
+<summary>
+IDStudent_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail2._FirstName_Detail">
+<summary>
+FirstName_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail2._LastName_Detail">
+<summary>
+LastName_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Detail2._Enrollment_Detail">
+<summary>
+Enrollment_Detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit1._IDStudent_Edit">
+<summary>
+IDStudent_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit1._FirstName_Edit">
+<summary>
+FirstName_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit1._LastName_Edit">
+<summary>
+LastName_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit1._Enrollment_Edit">
+<summary>
+Enrollment_Edit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Edit1._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._FirstName_Sr">
+<summary>
+FirstName_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._LastName_Sr">
+<summary>
+LastName_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._Enrollment_Sr">
+<summary>
+Enrollment_Sr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._Bt_Search">
+<summary>
+Bt_Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._IDStudent_ASC">
+<summary>
+IDStudent_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._IDStudent_DESC">
+<summary>
+IDStudent_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._FirstName_ASC">
+<summary>
+FirstName_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._FirstName_DESC">
+<summary>
+FirstName_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._LastName_ASC">
+<summary>
+LastName_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._LastName_DESC">
+<summary>
+LastName_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._Enrollment_ASC">
+<summary>
+Enrollment_ASC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._Enrollment_DESC">
+<summary>
+Enrollment_DESC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Index._GridView">
+<summary>
+GridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Contoso_Visual_Basic.WebForm2._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
